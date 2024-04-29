@@ -1,5 +1,5 @@
 import { useState } from "react";
-function TransactionForm({ transactions, setTransactions }) {
+export default function TransactionForm({ transactions, setTransactions }) {
   const [description, setDescription] = useState({
     date: "",
     description: "",
@@ -62,4 +62,3 @@ function TransactionForm({ transactions, setTransactions }) {
     </div>
   );
 }
-export default TransactionForm;

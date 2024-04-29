@@ -1,4 +1,4 @@
-function SearchBar({ transactions, setTransactions, things }) {
+export default function Search({ transactions, setTransactions, things }) {
     function handleChange(e) {
       const info = e.target.value;
       if (info.length > 0) {
@@ -27,4 +27,4 @@ function SearchBar({ transactions, setTransactions, things }) {
     );
   }
   
-  export default SearchBar;
+  

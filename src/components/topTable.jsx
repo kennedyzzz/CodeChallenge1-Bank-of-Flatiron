@@ -1,5 +1,5 @@
 import Table from "./table";
-function TransactionTable({ transactions }) {
+export default function TransactionTable({ transactions }) {
   return (
     <table>
       <thead>
@@ -16,5 +16,3 @@ function TransactionTable({ transactions }) {
     </table>
   );
 }
-
-export default TransactionTable;
