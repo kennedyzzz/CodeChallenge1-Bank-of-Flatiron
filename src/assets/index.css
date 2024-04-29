@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: rgb(97, 155, 155);
+    color: rgb(27, 87, 197);
   }
   
   body {
@@ -14,13 +14,13 @@ h1 {
   
   th,
   td {
-    border: 1px solid #b7b7b7;
+    border: 1px solid #ffffff;
     text-align: left;
     padding: 8px;
   }
   
   tr {
-    background-color: #f1f1f1;
+    background-color: white;
   }
   button {
     background-color: #2f788d;

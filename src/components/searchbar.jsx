@@ -21,7 +21,7 @@ export default function Search({ transactions, setTransactions, things }) {
           onChange={handleChange}
           className="form-control"
           type="text"
-          placeholder="Search your transactions"
+          placeholder="Search transaction"
         />
       </div>
     );

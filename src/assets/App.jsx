@@ -55,9 +55,9 @@ function App() {
     },
     {
       date: "2024-08-05",
-      description: "Shop",
+      description: "Toiletries",
       category: "Shopping",
-      Amount: "$50",
+      Amount: "$20",
     },
     {
       date: "2024-12-05",
