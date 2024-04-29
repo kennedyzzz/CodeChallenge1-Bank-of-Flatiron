@@ -15,7 +15,7 @@ function App() {
     },
 
     {
-      date: "2024-12-01",
+      date: "2024-19-01",
       description: "Live concert",
       category: "Entertainment",
       Amount: "$50",
@@ -51,7 +51,7 @@ function App() {
       date: "2024-09-04",
       description: "KFC",
       category: "Food",
-      Amount: "$13",
+      Amount: "$10",
     },
     {
       date: "2024-08-05",
@@ -68,7 +68,7 @@ function App() {
   ];
   const [transactions, setTransactions] = useState(items);
   return (
-    <div className="">
+    <div >
       <Header />
       <Search
         transactions={transactions}
