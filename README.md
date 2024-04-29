@@ -17,12 +17,12 @@ Git
 
 ### Installation instruction
 ```
-git@github.com:kennedyzzz/Phase2CodeChllenge1.git
+git@github.com:kennedyzzz/CodeChallenge1-Bank-of-Flatiron.git
 
 ```
 
 # Live Link
-https://github.com/kennedyzzz/Phase2CodeChllenge1.git
+https://github.com/kennedyzzz/CodeChallenge1-Bank-of-Flatiron.git
 
 ## Technologies used
 Github
