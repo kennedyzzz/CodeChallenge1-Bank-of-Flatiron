@@ -28,8 +28,7 @@ git@github.com:kennedyzzz/CodeChallenge1-Bank-of-Flatiron.git
 
 ```
 
-# Live Link
-https://github.com/kennedyzzz/CodeChallenge1-Bank-of-Flatiron.git
+
 
 ## Technologies used
 Github
