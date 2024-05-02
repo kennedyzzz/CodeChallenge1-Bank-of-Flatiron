@@ -1,4 +1,4 @@
-export default function Search({ transactions, setTransactions, things }) {
+export default function Search({ transactions, setTransactions, items }) {
     function handleChange(e) {
       const info = e.target.value;
       if (info.length > 0) {
@@ -11,7 +11,7 @@ export default function Search({ transactions, setTransactions, things }) {
           setTransactions([...filtered]);
         }
       } else {
-        setTransactions([...things]);
+        setTransactions([...items]);
       }
     }
   
