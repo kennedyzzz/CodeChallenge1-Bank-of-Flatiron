@@ -26,16 +26,13 @@ h1 {
     background-color: #2f788d;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-     width: 1500px;
-    cursor: pointer;
-    border-radius: 8px;
     transition: background-color 0.3s ease;
+    margin: 20px;
+    padding: 10px;
   }
   button:hover {
     background-color: #386f94;
