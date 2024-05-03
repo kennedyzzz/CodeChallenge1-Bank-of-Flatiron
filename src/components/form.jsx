@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 export default function TransactionForm({ transactions, setTransactions }) {
   const [description, setDescription] = useState({
     date: "",
@@ -6,10 +7,13 @@ export default function TransactionForm({ transactions, setTransactions }) {
     category: "",
     amount: "",
   });
+
   function handleSubmit(e) {
     e.preventDefault();
     setTransactions([...transactions, description]);
+
   }
+
   function handleChange(e) {
     setDescription({
       ...description,
